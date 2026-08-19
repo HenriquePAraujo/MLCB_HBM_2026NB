@@ -19,3 +19,27 @@ Essa função serve para verificar a probabilidade de uma entrada pertencer a um
 P ( y = 1 ) = 1 /1 + e − z
 
 Se resultado for maior que 0,5, ele tem uma chance maior de ser uma classe X, e se for menor pertencer a uma outra classe.     
+
+
+LAB 02 - AULA 02 (MLCB): Naive Bayes e Probabilidades
+
+Output:
+
+Mensagem de Teste: 'Gostaria de devolver o produto que comprei'
+Intenção Predita: troca_devolucao
+
+--- Distribuição de Probabilidades por Classe ---
+Classe [duvida_frete]: 27.99%
+Classe [rastrear_pedido]: 24.54%
+Classe [troca_devolucao]: 47.46%
+
+
+# 1 - Avaliem os resultados e verifiquem se os resultados foram corretos ou incorretos. Coloque a resposta no arquivo do relatório do laboratório
+O resultados estão corretos.
+
+# 2 - Detectado algum erro, qual seria a maneira mais correta de melhorar o resultado do algoritmo?
+
+
+# 3 - Detalhe a função do Naive Bayes no algorítmo.
+
+
