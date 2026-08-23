@@ -1,6 +1,6 @@
 # LAB 01 - AULA 02 (MLCB): Classificador de Intenções
 
-Output:
+## Output:
 Mensagem: 'Quero consultar quanto dinheiro tenho' ==> Intenção Predita: [fazer_pix]
 Mensagem: 'Pode me ajudar a fazer um pix?' ==> Intenção Predita: [fazer_pix]
 Mensagem: 'Gostaria de cancelar meu cartão de crédito' ==> Intenção Predita: [cancelar_conta]
@@ -23,7 +23,7 @@ Se resultado for maior que 0,5, ele tem uma chance maior de ser uma classe X, e 
 
 # LAB 02 - AULA 02 (MLCB): Naive Bayes e Probabilidades
 
-Output:
+## Output:
 
 Mensagem de Teste: 'Gostaria de devolver o produto que comprei'
 Intenção Predita: troca_devolucao
@@ -44,7 +44,7 @@ Ele calcula a probabilidade de um dado pertencer a uma categoria,a que for maior
 
 # LAB 03 - AULA 02 (MLCB): Preencha os blocos TODO
 
-Output:
+## Output:
 Acurácia do Modelo: 33.33%
 
 ## 1 - Qual foi a acurácia obtida pelo modelo no conjunto de teste e por que, em um dataset tão pequeno (9 exemplos), essa métrica pode ser enganosa?
@@ -54,4 +54,31 @@ A Árvore de Decisão analisa as características presentes nos dados e cria reg
 As palavras 'senha','redefinir' e 'acesso' ajudam a identificar o 'reset_senha'.
 ## 3 - Qual é o risco de utilizar uma Árvore de Decisão sem limite de profundidade (max_depth) em datasets de texto maiores?
 Overfitting(sobreajuste),sem limitar a profundidade, a árvore pode ficar muito complexa e aprender detalhes específicos dos dados de treinamento, inclusive padrões que não são realmente importantes
+
+
+# LAB 04 - AULA 02 (MLCB): DESAFIO NLU PARA AGÊNCIA DE VIAGENS (DO ZERO)
+
+## Output:
+----RESULTADOS LAB 04----
+Mensagem de teste: Gostaria de cancelar minha reserva
+Intenção predita: cancelar_reserva
+Probabilidade de ser cancelar_reserva: 60.72%
+Probabilidade de ser comprar_passagem: 25.95%
+Probabilidade de ser falar_atendente: 13.33%
+-------------------------------------------------
+Mensagem de teste: Gostaria de saber sobre viagens internacionais
+Intenção predita: comprar_passagem
+-------------------------------------------------
+Probabilidade de ser cancelar_reserva: 32.34%
+Probabilidade de ser comprar_passagem: 49.09%
+Probabilidade de ser falar_atendente: 18.57%
+-------------------------------------------------
+Mensagem de teste: Como contato o suporte?
+Intenção predita: cancelar_reserva
+Probabilidade de ser cancelar_reserva: 45.94%
+Probabilidade de ser comprar_passagem: 33.51%
+Probabilidade de ser falar_atendente: 20.56%
+
+## Explicação:
+Utilizamos o Naive Bayes pois achamos que ele é o algoritmo de classificação mais didático sobre a escolha do resultado final.
 
