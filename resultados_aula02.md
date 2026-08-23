@@ -36,10 +36,23 @@ Classe [troca_devolucao]: 47.46%
 
 # 1 - Avaliem os resultados e verifiquem se os resultados foram corretos ou incorretos. Coloque a resposta no arquivo do relatório do laboratório
 O resultados estão corretos.
-
 # 2 - Detectado algum erro, qual seria a maneira mais correta de melhorar o resultado do algoritmo?
-
-
+Cadastrando a frase que causou o erro no código junto com sua classe
 # 3 - Detalhe a função do Naive Bayes no algorítmo.
+Ele calcula a probabilidade de um dado pertencer a uma categoria,a que for maior será o resultado final
 
+
+
+LAB 03 - AULA 02 (MLCB): Preencha os blocos TODO
+
+Output:
+Acurácia do Modelo: 33.33%
+
+# 1 - Qual foi a acurácia obtida pelo modelo no conjunto de teste e por que, em um dataset tão pequeno (9 exemplos), essa métrica pode ser enganosa?
+33.33%. Pode ser enganosa pois a baixa quantidade de dados tanto para teste e para treino não podem ser suficientes para treinar um algoritmo
+# 2 - Como o modelo de Árvore de Decisão (DecisionTreeClassifier) toma a decisão de separar as intenções do usuário?
+A Árvore de Decisão analisa as características presentes nos dados e cria regras para separar as diferentes classes.Exemplo:
+As palavras 'senha','redefinir' e 'acesso' ajudam a identificar o 'reset_senha'.
+# 3 - Qual é o risco de utilizar uma Árvore de Decisão sem limite de profundidade (max_depth) em datasets de texto maiores?
+Overfitting(sobreajuste),sem limitar a profundidade, a árvore pode ficar muito complexa e aprender detalhes específicos dos dados de treinamento, inclusive padrões que não são realmente importantes
 
