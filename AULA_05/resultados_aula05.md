@@ -21,3 +21,19 @@ Quantidade de tokens antes: 13
 Quantidade de tokens depois: 5
 Tokens removidos: ['meu', 'chegou', 'quebrado', 'e', 'quero']
 Tokens finais: ['sofá', 'chegar', 'quebrar', 'querer', 'devolver']
+
+# ATIVIDADE 2: Finalized Mean Pooling
+
+
+## Output:
+
+X_vetores: (80, 50)
+y: (80,)
+
+Tudo certo!
+Treinamento: (64, 50)
+Teste: (16, 50)
+Dimensão dos vetores: 50
+
+
+
