@@ -35,5 +35,14 @@ Treinamento: (64, 50)
 Teste: (16, 50)
 Dimensão dos vetores: 50
 
+# ATIVIDADE 3: Regressão Logistica
 
 
+## Output: 
+
+
+           Modelo Accuracy Precision Recall     F1
+Regressão Logística   75.00%    79.17% 75.00% 75.36%
+                KNN   56.25%    52.50% 56.25% 52.14%
+
+                
