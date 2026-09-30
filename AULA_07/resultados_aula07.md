@@ -9,6 +9,6 @@ FALLBACK
 ## Output:
 {'status': 'FALLBACK'}
 
-# Exercício 2
+# Exercício 3
 ## Output:
 {'status': 'sucesso', 'intencao': np.str_('rastrear_pedido'), 'confianca': np.float64(1.0), 'codigo_rastreio': 'BR987654321BR'}
